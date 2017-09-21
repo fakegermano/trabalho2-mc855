@@ -1,3 +1,9 @@
+## Caso você seja preguiçoso:
+Só execute o arquivo `openPyspark.sh` assim:
+```bash
+$ source openPyspark.sh
+```
+
 ## Configurando o ambiente
 #### Instale o virtualenv se não tiver instalado (ou equivalente)
 ```bash
@@ -49,9 +55,4 @@ $ source pyspark-env/bin/activate
 
 Lembre-se de sair do terminal do pyspark e sair do ambiente virtual
 
-## Caso você seja preguiçoso:
-Só execute o arquivo `openPyspark.sh` assim:
-```bash
-$ source openPyspark.sh
-```
 E bora codar
