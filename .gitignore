@@ -1,0 +1,6 @@
+.idea/
+__MACOSX/
+.DS_Store
+pyspark-env/
+metastore_db/
+*.log

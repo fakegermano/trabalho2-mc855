@@ -56,3 +56,12 @@ $ source pyspark-env/bin/activate
 Lembre-se de sair do terminal do pyspark e sair do ambiente virtual
 
 E bora codar
+
+## Executando scripts .py no spark
+Execute no terminal:
+```bash
+$ source pyspark-env/bin/activate
+(pyspark-env) $ pyspark-env/lib/python3.5/site-packages/pyspark/bin/spark-submit \
+  --master local[4] \
+  SimpleApp.py
+```
